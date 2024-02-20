@@ -7,7 +7,7 @@ import os
 import time
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import WordCompleter
-from prompt_toolkit.input import win32 as win32_input
+# from prompt_toolkit.input import win32 as win32_input
 from personal_assistant2.sorted import *
 from personal_assistant2.notes import run_notes
 
@@ -143,7 +143,7 @@ class ContactAssistant:
     def show_all_contacts(self):
         records = list(self.address_book.values())
         if not records:
-            return f"{YLLOW}Ваша телефонна книга поки не містить жодного конткту{DEFALUT}"
+            return f"{YLLOW}Ваша телефонна книга поки не містить жодного контакту{DEFALUT}"
         else:
             result = f'{GREEN}{"Name":<10} {"Birthday":^12} {"Phone":<12} {"Email":<20} {"Address":<20} {YLLOW}\n'
             for record in records:
