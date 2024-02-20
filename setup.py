@@ -12,7 +12,7 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"],
-    packages=find_namespace_packages(),
+    packages=find_namespace_packages(where="personal_assistant2"),
     # packages=find_packages(where="personal_assistant2"),
     # package_dir={"": "personal_assistant2"},
     data_files=[('personal_assistant2', ['personal_assistant2/contacts.json', 'personal_assistant2/notes.json'])],
