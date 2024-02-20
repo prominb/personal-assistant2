@@ -1,4 +1,4 @@
-from colors import * 
+from personal_assistant2.colors import * 
 PISKAZKA_SHOW_ALL = f"\nКоманда - {GREEN}show all{YLLOW} - покаже доступні контакти{DEFALUT}"
 
 LIST_COMANDS_BOT = ["hello", "add", "phone", "email", "show all", "change", 'search', 

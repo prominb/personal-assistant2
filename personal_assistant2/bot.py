@@ -1,15 +1,15 @@
-from classes import Record, AddressBook
+from personal_assistant2.classes import Record, AddressBook
 from datetime import datetime, timedelta
-from colors import *
-from comands import *
+from personal_assistant2.colors import *
+from personal_assistant2.comands import *
 import json
 import os
 import time
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.input import win32 as win32_input
-from sorted import *
-from notes import run_notes
+from personal_assistant2.sorted import *
+from personal_assistant2.notes import run_notes
 
 
 class InputError(Exception):

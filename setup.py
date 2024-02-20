@@ -15,8 +15,8 @@ setup(
     packages=find_namespace_packages(),
     data_files=[('personal_assistant2', ['personal_assistant2/contacts.json', 'personal_assistant2/notes.json'])],
     include_package_data=True,
-    install_requires=['markdown'],
-    include_package_data=True,
+    install_requires=[
+        'prompt-toolkit>=3.0'],
     entry_points={'console_scripts': ['run-assistant = personal_assistant2.main:run_bot']},
     zip_safe=False
 )

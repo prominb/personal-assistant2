@@ -1,4 +1,4 @@
-from bot import Bot
+from personal_assistant2.bot import Bot
 
 
 def run_bot():
